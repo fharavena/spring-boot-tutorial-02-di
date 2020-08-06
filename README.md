@@ -1,10 +1,20 @@
-# springboot-aprendiz01
+# springboot-aprendiz02
+## Second online lesson activitie: dependency injection
 
-#Run app
->mvnw spring-boot:run
+Creating a bill model with client class an list of product class
+using @Wired, @Qualifier, @Value, @PostConstruct, @PreDestroy, @RequestScope, @SessionScope
 
-#Compile app
-> mvnw package
+Run app:
+```sh
+$ mvnw spring-boot:run
+```
 
-#Run compiled app
-> java -jar target/nombre_aplicacion.jar
+Compile app:
+```sh
+$ mvnw package
+```
+
+Run compiled app:
+```sh
+$ java -jar target/nombre_aplicacion.jar
+```
